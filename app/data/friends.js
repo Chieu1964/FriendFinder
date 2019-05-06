@@ -19,7 +19,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Sarah',
-		photo: 'https://cdn.pixabay.com/photo/2017/06/24/09/13/dog-2437110_1280.jpg',
+		photo: 'https://espree-53db.kxcdn.com/collateral/E9A3E7FB-0721-4ACB-B7DD-A7A8A330689C.jpg',
 		scores: [
 			'1',
 			'2',

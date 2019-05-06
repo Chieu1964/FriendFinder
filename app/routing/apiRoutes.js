@@ -21,7 +21,7 @@ module.exports = function (app) {
 
     });
 
-    console.log(friends);
+    // console.log(friends);
     // Add new friend entry
     app.post('/api/friends', function (req, res) {
         // Capture the user input object
@@ -44,7 +44,7 @@ module.exports = function (app) {
             // Compute differenes for each question
             var scoreDiff = 0;
             for (var j = 0; j < userResponses.length; j++) {
-                diff += Math.abs(friends[i].scores[j] - userResponses[j]);
+                scoreDiff += Math.abs(friends[i].scores[j] - userResponses[j]);
             }
             // console.log('diff = ' + scoreDiff);
 
